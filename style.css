@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+.game {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background: #999;
+  border: 1px solid black;
+  cursor: pointer;
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box:hover {
+  background: #000;
+}
